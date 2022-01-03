@@ -1,0 +1,177 @@
+body{
+    margin:0
+}
+
+.section1{
+    background-color: #1f2937;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    padding: 0 100px 50px 100px
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header .logo{
+    font-size: 24px;
+    color: f9faf8;
+}
+
+.description{
+    display: flex;
+    align-content: center;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    align-self: center;
+}
+
+.intro h1{
+    font-size: 48px;
+    font-weight:bolder;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.intro .subtitle{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#signup{
+    max-width: 100px;
+    background-color: #3882f6;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.description img{
+    height: 200px;
+    width: 450px;
+    flex:1;
+    align-self: center;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    padding: 0 100px 50px 100px
+}
+
+.section2 h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.section2 .lista{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items:center;
+    color: #1f2937
+}
+
+.lista .l1{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.square{
+    border: 4px solid #3882f6;
+    flex: 1 1 100px;
+    border-radius: 10px;
+}
+
+.section3{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    padding: 100px 100px 50px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    width: 70%;
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+#god{
+    width: 50%;
+    text-align: end;
+    font-weight: bold;
+}
+
+.section4{
+    display: flex;
+    height: auto;
+    gap: 20px;
+    padding: 100px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    display:flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 30px;
+    gap: 80px
+}
+
+.box button{
+    border-style: solid;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 20px
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+    justify-content: center;
+    height: 60px;
+    color: white
+}
